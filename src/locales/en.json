@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "languageName": "English",
+    "chanageLanguage": "Change language",
+    "hello": "Hello world",
+    "look": {
+      "deep": {
+        "escape": "look deep {{myVar}}",
+        "unescape": "look deep {{- myVar}}"
+      }
+    }
+  }
+}

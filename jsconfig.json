@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2017",
+    // 一定要用commonjs，才可以解析省略沒寫的/index.js
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"],
+      "~screens/*": ["src/screens/*"],
+      "~navigation/*": ["src/navigation"],
+      "~locales/": ["src/locales/index"],
+      "~components/*": ["src/components/*"],
+      "~atoms/": ["src/components/atoms/index"],
+      "~compose/": ["src/components/compose/index"],
+      "~state/*": ["src/state/*"],
+      "~images/*": ["src/static/images/*"],
+      "~icons/*": ["src/static/icons/*"],
+      "~style/": ["src/style/index"],
+      "~style/*": ["src/style/*"],
+      "~store/*": ["src/store/*"],
+      "~utils/*": ["src/utils/*"],
+      "~hooks/*": ["src/hooks/*"],
+      "~apis/": ["src/apis/index"],
+      // "~~apis/*": ["src/apis/*"],
+      // "~~apis/": ["src/apis/index"],
+      // "~~atoms/": ["src/components/atoms/index"],
+      // "~~compose/": ["src/components/compose/index"],
+      // "~~config/*": ["src/config/*"],
+      // "~~locales/*": ["src/locales/*"],
+      // "~~modules/*": ["src/modules/*"],
+      // "~~routes/": ["src/routes/index"],
+      // "~~static/*": ["src/static/*"],
+      // "~~store/": ["src/store/index"],
+      // "~~styles/*": ["src/styles/*"],
+      // "~~styles/index": ["src/styles/index"],
+      // "~~utils/*": ["src/utils/*"],
+      // "~~utils/": ["src/utils/index"],
+      // "~~constants/*": ["src/utils/Constants"],
+      // "~~hooks/*": ["src/hooks/*"],
+      // "~~hooks/": ["src/hooks/index"]
+    }
+  },
+  "checkJs": true,  // enable VSCode Type checking JavaScript
+  "exclude": ["node_modules", "**/node_modules/*", "dist"],
+}
+  

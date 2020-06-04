@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "languageName": "繁體中文",
+    "chanageLanguage": "變更語言",
+    "hello": "嗨",
+    "look": {
+      "deep": {
+        "escape": "看 很深 {{myVar}}",
+        "unescape": "看 很深 {{- myVar}}"
+      }
+    }
+  }
+}
