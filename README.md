@@ -1,5 +1,14 @@
 > with basic react-navigator ( stack / modal / drawer ) mode
 
+## React Native Starter Project (RN: 0.62.2 & React: 16.11.0)
+
+This is a react native basic project includes react-navigator ( stack / v5 modal / drawer exmaple), react-native-paper, native-base, react-native-element, fancy carsel, fancy picker (full page or wheel), react-native-modal example
+
+Use React hooks, and include custom axios hooks to implement api.
+
+
+---
+
 Before you start : 
 
 please install react native environment (ios / android)
@@ -27,6 +36,10 @@ And then run the project!
 `npm run ios` to run ios simulator ( should install xcode and cocopods )
 
 `npm run android` to run android emulator ( should install android studio and has emulator with android 9 and android 28 api )
+
+---
+
+### else
 
 **RN 0.62 `useNativeDriver` issue**
 [0.62 about useNativeDriver](https://github.com/react-native-community/releases/blob/master/CHANGELOG.md#deprecated)
